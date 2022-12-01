@@ -1,6 +1,7 @@
 import React , {useState} from "react";
 import "./style.css";
 import Navbar from './Navbar'
+import Shop from './Shop'
 
 export default function App() 
 {
@@ -11,7 +12,7 @@ export default function App()
   return (
     <div>
       <Navbar/>
-      <p>Start editing to see some magic happen :)</p>
+      <Shop/>
     </div>
   );
 }
